@@ -98,6 +98,23 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .header-wrapper {
+    background-color: #ff0000 !important;
+  }
+
+  .header__menu-item,
+  .header__icon,
+  .header__heading-link,
+  .header__menu-item:hover,
+  .header__icon:hover,
+  .header__heading-link:hover {
+    color: #ffffff !important;
+  }
+
+  .header__icon .icon path {
+    fill: #ffffff !important;
+  }
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
